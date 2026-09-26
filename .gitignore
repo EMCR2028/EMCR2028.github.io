@@ -1,0 +1,18 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local tooling
+__pycache__/
+*.pyc
+
+# Temporary / generated files
+*.zip
+*.tmp
+*.bak
