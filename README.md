@@ -123,3 +123,10 @@ assets/emcr2028-logo.png
 ```
 
 with the revised file while keeping the same filename. The current HTML will use it automatically.
+
+## Contact and institutional identity
+
+- Congress contact: [emcr2028@proton.me](mailto:emcr2028@proton.me), displayed in the contact section and footer.
+- Universidade de Vigo institutional logo: `assets/uvigo-logo.png`, stored locally and linked to the university website.
+- Official logo source: https://fcom.uvigo.gal/facultade/identidade-corporativa-fcsc/
+- Original image: https://fcom.uvigo.gal/wp-content/uploads/2025/07/Logotipo_negro_UNIVERSIDADE_DE_VIGO-1024x227.png

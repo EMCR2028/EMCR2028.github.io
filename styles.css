@@ -149,9 +149,11 @@ button, input, textarea, select { font: inherit; }
 .role-list span { color: rgba(255,255,255,.62); font-size: .82rem; }
 .role-list strong { font-size: .85rem; }
 .inline-link { display: inline-flex; margin-top: 14px; color: var(--navy); font-size: .88rem; font-weight: 750; }
-.partner-strip { margin-top: 20px; display: grid; grid-template-columns: 1.1fr repeat(4, 1fr); border: 1px dashed #c7d7d9; border-radius: 17px; overflow: hidden; background: rgba(255,255,255,.6); }
+.partner-strip { margin-top: 20px; display: grid; grid-template-columns: 1.1fr 1.5fr repeat(3, 1fr); border: 1px dashed #c7d7d9; border-radius: 17px; overflow: hidden; background: rgba(255,255,255,.6); }
 .partner-strip > * { min-height: 86px; display: grid; place-items: center; padding: 14px; border-right: 1px dashed #c7d7d9; color: #83939b; font-size: .77rem; text-transform: uppercase; letter-spacing: .08em; text-align: center; }
 .partner-strip > *:last-child { border-right: 0; }
+.institution-logo img { display: block; width: 100%; max-width: 240px; height: auto; }
+.institution-logo:focus-visible { outline: 3px solid var(--blue); outline-offset: -4px; }
 .partner-strip > span { color: var(--green); font-weight: 800; }
 
 .vigo { position: relative; min-height: 720px; display: grid; align-items: end; overflow: hidden; background: #0a4568; padding: 0; color: white; }
@@ -233,6 +235,8 @@ button, input, textarea, select { font: inherit; }
 .contact-box { padding: 28px; border-radius: 18px; background: white; border: 1px solid var(--line); }
 .contact-box span { color: var(--green); font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .contact-box strong { display: block; margin-top: 8px; color: var(--navy); font-size: 1.06rem; }
+.contact-email { overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; }
+.contact-email:hover { color: var(--blue); }
 .contact-box p { margin-bottom: 0; font-size: .9rem; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 34px 0; background: white; }
