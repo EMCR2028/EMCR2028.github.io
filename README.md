@@ -40,13 +40,12 @@ development → Pull Request → main → GitHub Actions → GitHub Pages
 
 ## First-time GitHub setup
 
-1. Create a GitHub repository, for example `emcr2028`.
-2. Upload or push the contents of this folder to the repository.
+1. Use the existing repository: `https://github.com/EMCR2028/EMCR2028.github.io`.
+2. Copy or push the contents of this folder into the repository.
 3. Ensure the production branch is named `main`.
 4. In **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**.
 5. Push to `main`, or run the workflow manually from the **Actions** tab.
-6. GitHub Pages will publish the site at a URL similar to:
-   `https://USERNAME.github.io/emcr2028/`
+6. The public site is: `https://emcr2028.github.io/`.
 
 ## Development branch
 
@@ -124,9 +123,10 @@ assets/emcr2028-logo.png
 
 with the revised file while keeping the same filename. The current HTML will use it automatically.
 
-## Contact and institutional identity
 
-- Congress contact: [emcr2028@proton.me](mailto:emcr2028@proton.me), displayed in the contact section and footer.
-- Universidade de Vigo institutional logo: `assets/uvigo-logo.png`, stored locally and linked to the university website.
-- Official logo source: https://fcom.uvigo.gal/facultade/identidade-corporativa-fcsc/
-- Original image: https://fcom.uvigo.gal/wp-content/uploads/2025/07/Logotipo_negro_UNIVERSIDADE_DE_VIGO-1024x227.png
+## Latest content update
+
+- Removed the obsolete ERCOFTAC transport reference link.
+- Added official external links for Vigo Airport, Santiago de Compostela Airport and Porto Airport.
+- Added tourism links for Ría de Vigo, Cíes Islands and Galicia.
+- External links open in a separate browser tab with `noopener noreferrer`.

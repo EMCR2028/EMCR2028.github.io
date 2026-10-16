@@ -1,4 +1,4 @@
-cd 'C:\Users\rnovo\Dropbox\1-Congresos\2028.xx.xx-EMCR(Gal)\emcr2028-site-github-ready'
+cd 'C:\Users\rnovo\Dropbox\1-Congresos\2028.xx.xx-EMCR-Gal\emcr2028-site-github-ready'
 git add .
-git commit -m 'escribe unha mensaxe aquí'
+git commit -m '16 outono 26 adicion enlaces turismo'
 git push
