@@ -1,4 +1,4 @@
 cd 'C:\Users\rnovo\Dropbox\1-Congresos\2028.xx.xx-EMCR(Gal)\emcr2028-site-github-ready'
 git add .
-git commit -m 'escribe unha mensaxe aqui'
+git commit -m 'escribe unha mensaxe aquí'
 git push

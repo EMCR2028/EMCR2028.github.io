@@ -182,7 +182,9 @@ button, input, textarea, select { font: inherit; }
 .vigo-copy h2 { color: white; max-width: 650px; }
 .vigo-copy p { max-width: 650px; color: rgba(255,255,255,.78); }
 .vigo-facts { display: grid; gap: 10px; }
-.vigo-facts div { padding: 18px 20px; border: 1px solid rgba(255,255,255,.18); background: rgba(5,47,77,.38); backdrop-filter: blur(8px); border-radius: 16px; }
+.vigo-facts > a { display: block; padding: 18px 20px; border: 1px solid rgba(255,255,255,.18); background: rgba(5,47,77,.38); backdrop-filter: blur(8px); border-radius: 16px; }
+.vigo-facts > a:hover strong, .vigo-facts > a:focus-visible strong { text-decoration: underline; text-underline-offset: .2em; }
+.vigo-facts > a:focus-visible { outline: 3px solid #b4d987; outline-offset: 3px; }
 .vigo-facts span { display: block; color: #b4d987; font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; }
 .vigo-facts strong { display: block; margin-top: 3px; font-size: 1.05rem; }
 .vigo-facts small { color: rgba(255,255,255,.67); }
